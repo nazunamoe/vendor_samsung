@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/maguro/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/maguro/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/samsung/maguro/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/maguro/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/maguro/proprietary/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/maguro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/maguro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
