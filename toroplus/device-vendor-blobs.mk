@@ -41,35 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/samsung/toroplus/proprietary/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
     vendor/samsung/toroplus/proprietary/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/toroplus/proprietary/GooManager.apk:system/app/GooManager.apk \
     vendor/samsung/toroplus/proprietary/com.samsung.device.jar:system/framework/com.samsung.device.jar
-
-# All the apks necessary for toroplus
-PRODUCT_PACKAGES += \
-    HiddenMenu \
-    BIP \
-    SDM \
-    SecPhone \
-    SyncMLSvc \
-    fRom \
-    libsecril-client \
-    libsyncml_core \
-    libsyncml_port \
-    lib_gsd4t \
-    libsec-ril_lte \
-    bcm4330 \
-    pvrsrvctl \
-    libEGL_POWERVR_SGX540_120 \
-    libGLESv1_CM_POWERVR_SGX540_120 \
-    libGLESv2_POWERVR_SGX540_120 \
-    gralloc.omap4 \
-    libglslcompiler \
-    libIMGegl \
-    libpvr2d \
-    libpvrANDROID_WSEGL \
-    libPVRScopeServices \
-    libsrv_init \
-    libsrv_um \
-    libusc \
-    libinvensense_mpl \
-    libpn544_fw
 
