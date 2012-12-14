@@ -41,6 +41,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/samsung/toroplus/proprietary/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
     vendor/samsung/toroplus/proprietary/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/toroplus/proprietary/GooManager.apk:system/app/GooManager.apk \
     vendor/samsung/toroplus/proprietary/com.samsung.device.jar:system/framework/com.samsung.device.jar
 
