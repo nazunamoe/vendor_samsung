@@ -77,7 +77,10 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2tmo/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
         vendor/samsung/d2tmo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/samsung/d2tmo/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
+<<<<<<< HEAD
         vendor/samsung/d2tmo/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+=======
+>>>>>>> c5794cb2f47e6891bb1631a384a7ecfa65a31ddb
         vendor/samsung/d2tmo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/d2tmo/proprietary/lib/libakmd.so:system/lib/libakmd.so \
         vendor/samsung/d2tmo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
