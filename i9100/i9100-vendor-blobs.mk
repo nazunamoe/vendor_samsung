@@ -41,4 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9100/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/i9100/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/i9100/proprietary/system/lib/libsecril-client-sap.so:system/lib/libsecril-client-sap.so \
-    vendor/samsung/i9100/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
+    vendor/samsung/i9100/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    vendor/samsung/i9100/proprietary/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
+    vendor/samsung/i9100/proprietary/system/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
+    vendor/samsung/i9100/proprietary/system/lib/modules/j4fs.ko:system/lib/modules/j4fs.ko \
+    vendor/samsung/i9100/proprietary/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/samsung/i9100/proprietary/system/lib/modules/Si4709_driver.ko:system/lib/modules/Si4709_driver.ko
