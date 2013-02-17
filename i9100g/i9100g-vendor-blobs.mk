@@ -40,11 +40,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/vendor-camera.t1.so:system/lib/hw/vendor-camera.t1.so \
     $(LOCAL_PATH)/proprietary/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    $(LOCAL_PATH)/proprietary/system/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    $(LOCAL_PATH)/proprietary/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
-    $(LOCAL_PATH)/proprietary/system/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-    $(LOCAL_PATH)/proprietary/system/lib/modules/j4fs.ko:system/lib/modules/j4fs.ko \
-    $(LOCAL_PATH)/proprietary/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
     $(LOCAL_PATH)/proprietary/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
     $(LOCAL_PATH)/proprietary/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
     $(LOCAL_PATH)/proprietary/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
