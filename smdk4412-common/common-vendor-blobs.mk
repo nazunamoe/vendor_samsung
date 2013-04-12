@@ -17,8 +17,7 @@ LOCAL_PATH := vendor/samsung/smdk4412-common
 PRODUCT_PACKAGES += \
 	libTVOut \
 	libUMP \
-	libfimc \
-	libsecion
+	libfimc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
