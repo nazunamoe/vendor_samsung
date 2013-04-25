@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := crespo/BoardConfigCrespo.mk
+LOCAL_STEM := crespo4g/device-crespo4g.mk
 
--include vendor/akm/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/cypress/$(LOCAL_STEM)
--include vendor/imgtec/$(LOCAL_STEM)
--include vendor/nxp/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/widevine/$(LOCAL_STEM)
+$(call inherit-product-if-exists, vendor/akm/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/cypress/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/imgtec/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))

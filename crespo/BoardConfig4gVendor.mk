@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := crespo/BoardConfigCrespo.mk
+LOCAL_STEM := crespo4g/BoardConfigCrespo4g.mk
 
 -include vendor/akm/$(LOCAL_STEM)
 -include vendor/broadcom/$(LOCAL_STEM)

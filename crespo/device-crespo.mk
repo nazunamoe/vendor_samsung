@@ -12,12 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := crespo/BoardConfigCrespo.mk
+LOCAL_PATH := vendor/samsung/crespo
 
--include vendor/akm/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/cypress/$(LOCAL_STEM)
--include vendor/imgtec/$(LOCAL_STEM)
--include vendor/nxp/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/widevine/$(LOCAL_STEM)
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
+
+# Samsung blobs necessary for Nexus S hardware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/libsec-ril.so:system/vendor/lib/libsec-ril.so
